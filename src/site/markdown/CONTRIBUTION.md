@@ -17,7 +17,7 @@ Spring Boot Admin默认支持的日志实现是logback，对log4j2的支持不�
     <dependencyManagement>
       <dependencies>
        <dependency>
-         <groupId>com.yirendai.oss</groupId>
+         <groupId>com.yirendai.infra</groupId>
          <artifactId>oss-release-spring-boot-${spring-boot.version}</artifactId>
          <version>${oss-release.version}</version>
          <type>pom</type>
@@ -28,13 +28,13 @@ Spring Boot Admin默认支持的日志实现是logback，对log4j2的支持不�
 
     <!-- spring boot admin 管理需要 -->
     <dependency>
-      <groupId>com.yirendai.oss.lib</groupId>
+      <groupId>com.yirendai.infra</groupId>
       <artifactId>oss-lib-adminclient-spring-boot-${spring-boot.version}</artifactId>
       <scope>runtime</scope>
     </dependency>
     <!-- 引入lib log4j2扩展  -->
     <dependency>
-            <groupId>com.yirendai.oss.lib</groupId>
+            <groupId>com.yirendai.infra</groupId>
             <artifactId>oss-lib-log4j2-spring-boot-${spring-boot.version}</artifactId>
             <scope>runtime</scope>
     </dependency>
