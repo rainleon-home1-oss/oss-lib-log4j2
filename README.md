@@ -1,6 +1,7 @@
 
 # oss-lib-log4j2
 
+
 ## spring boot 中使用log4j2存在的问题  
 ### 1. 在jmx中无法管理任意logger的等级  
 ![configserver.png](src/readme/log4j2-jmx-1.png)
@@ -27,7 +28,7 @@
   
       <!-- 引入lib log4j2扩展  -->
       <dependency>
-              <groupId>com.yirendai.infra</groupId>
+              <groupId>cn.home1</groupId>
               <artifactId>oss-lib-log4j2-spring-boot-${spring-boot.version}</artifactId>
               <scope>runtime</scope>
       </dependency>   
@@ -40,7 +41,7 @@
     <dependencyManagement>
       <dependencies>
        <dependency>
-         <groupId>com.yirendai.infra</groupId>
+         <groupId>cn.home1</groupId>
          <artifactId>oss-release-spring-boot-${spring-boot.version}</artifactId>
          <version>${oss-release.version}</version>
          <type>pom</type>
@@ -51,7 +52,7 @@
 
     <!-- spring boot admin 管理需要 -->
     <dependency>
-      <groupId>com.yirendai.infra</groupId>
+      <groupId>cn.home1</groupId>
       <artifactId>oss-lib-adminclient-spring-boot-${spring-boot.version}</artifactId>
       <scope>runtime</scope>
     </dependency>
@@ -64,7 +65,7 @@
     
     <!-- 引入lib log4j2扩展  -->
     <dependency>
-            <groupId>com.yirendai.infra</groupId>
+            <groupId>cn.home1</groupId>
             <artifactId>oss-lib-log4j2-spring-boot-${spring-boot.version}</artifactId>
             <scope>runtime</scope>
     </dependency>
