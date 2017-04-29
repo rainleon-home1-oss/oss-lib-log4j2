@@ -1,6 +1,6 @@
-package com.yirendai.oss.lib.log4j2.starter;
+package cn.home1.oss.lib.log4j2.starter;
 
-import com.yirendai.oss.lib.log4j2.jmx.Log4j2Manager;
+import cn.home1.oss.lib.log4j2.jmx.Log4j2Manager;
 
 import org.apache.logging.log4j.core.LoggerContext;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnClass;

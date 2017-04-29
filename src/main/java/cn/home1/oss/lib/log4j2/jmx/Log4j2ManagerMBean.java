@@ -1,4 +1,4 @@
-package com.yirendai.oss.lib.log4j2.jmx;
+package cn.home1.oss.lib.log4j2.jmx;
 
 import java.util.List;
 
